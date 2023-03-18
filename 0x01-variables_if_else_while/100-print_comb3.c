@@ -1,9 +1,8 @@
 #include <stdio.h>
-
 /**
- * main - prints all combinations 
- * Return: ALways 0 (Success)
- */
+ * main - prints all combinations
+ * Return: Always 0 (Success)
+*/
 int main(void)
 {
 int n, m;
