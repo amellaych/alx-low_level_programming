@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - prints the alphabet in lowercase,  uppercase,
  * new line
@@ -13,3 +14,4 @@ for (ch = 'A'; ch <= 'Z'; ch++)
 putchar(ch);
 putchar('\n');
 return (0);
+}
