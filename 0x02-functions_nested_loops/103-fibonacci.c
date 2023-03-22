@@ -27,4 +27,4 @@ int main(void)
 
 	printf("%lu\n", sum);
 
-	eturn (0);
+	return (0);
