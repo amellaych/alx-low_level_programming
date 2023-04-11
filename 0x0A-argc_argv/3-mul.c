@@ -1,42 +1,4 @@
-[01:46, 11/04/2023] Fati Ba9chchat: #include <stdio.h>
-#include "main.h"
-
-/**
- * main - Prints the number of arguments passed to the program.
- * @argc: The number of arguments passed to the program.
- * @argv: An array of pointers to the arguments.
- *
- * Return: Always 0 (Success).
- */
-int main(int argc, char *argv[])
-{
-	(void) argv;
-	printf("%d\n", argc - 1);
-
-	return (0);
-}
-[01:46, 11/04/2023] Fati Ba9chchat: #include <stdio.h>
-#include "main.h"
-
-/**
- * main - Prints all arguments it receives.
- * @argc: The number of arguments passed to the program.
- * @argv: An array of pointers to the arguments.
- *
- * Return: Always 0 (Success).
- */
-int main(int argc, char *argv[])
-{
-	int i;
-
-	for (i = 0; i < argc; i++)
-	{
-		printf("%s\n", argv[i]);
-	}
-
-	return (0);
-}
-[01:47, 11/04/2023] Fati Ba9chchat: #include <stdio.h>
+#include <stdio.h>
 #include "main.h"
 
 /**
