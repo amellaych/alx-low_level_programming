@@ -15,10 +15,10 @@ int is_digit(char *s)
 	while (*s)
 	{
 		if (*s < '0' || *s > '9')
-			return 0;
+			return (0);
 		s++;
 	}
-	return 1;
+	return (1);
 }
 
 /**
@@ -32,7 +32,7 @@ int _strlen(char *s)
 	int i = 0;
 	while (s[i++])
 		;
-	return i - 1;
+	return (i - 1);
 }
 
 /**
@@ -63,7 +63,7 @@ int main(int argc, char *argv[])
 	len = len1 + len2 + 1;
 	result = malloc(sizeof(int) * len);
 	if (!result)
-		return 1;
+		return (1);
 	for (i = 0; i <= len1 + len2; i++)
 		result[i] = 0;
 	for (len1--; len1 >= 0; len1--)
@@ -91,6 +91,5 @@ int main(int argc, char *argv[])
 		putchar('0');
 	putchar('\n');
 	free(result);
-	return 0;
+	return (0);
 }
-
