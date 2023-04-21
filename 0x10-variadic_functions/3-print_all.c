@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * print_all - prints 
+ * print_all - prints
  * @format: list of types arg passed to the function
  */
 void print_all(const char * const format, ...)
